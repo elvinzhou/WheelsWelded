@@ -1,13 +1,11 @@
 ---
 new_page_extension: html
-auto_deploy: false
+auto_deploy: true
 admin_path: ''
 webhook_url: 
 collections:
   _projects:
     default_front_matter_template: project
-  _people:
-    default_front_matter_template: person
   _posts:
     default_front_matter_template: post
 upload_dir: uploads
