@@ -1,7 +1,7 @@
 # Config
 # ========================================================================================
 
-# IMPORTANT: Set the URL of your page.
+# IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
 url:                   https://wheelswelded.com
@@ -31,27 +31,35 @@ description:           >
   Combines the best of static sites and modern web apps.
   Open `_config.yml` to edit this text.
 
-# A shorter description for the sidebar (optional).
+# A shorter description for the sidebar.
 tagline:               >
   A Jekyll theme with JavaScript powers.
   Open `_config.yml` to edit this text.
 
-# A list of keywords for your blog (optional).
+# A list of keywords for your blog
 keywords:              []
 
-# Used by jekyll-seo-tag (optional).
+# Used by jekyll-seo-tag...
 logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
   name:                Elvin Zhou
-  email:               elvin@wheelswelded.com
+  email:               <elvin@wheelswelded.com>
   # Used by `jekyll-seo-tag`:
-  # twitter:             @flagsfly
+  # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2018. All rights reserved.
+
+# Add links to the footer.
+# Typically you'll want to link to your impress, cookies or privacy policy, etc.
+# legal:
+#   - title:             Impress
+#     href:              /impress/
+#   - title:             Cookies Policy
+#     href:              /cookies-policy/
 
 # Format of the permalinks
 permalink:             pretty
@@ -81,18 +89,16 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
-# Setting a disqus shortname will enable the comment section on
-# pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
-
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
 # google_analytics:      UA-XXXXXXXX-X
 
-# Setting a tinyletter username will enable the newsletter subscription box.
-# PRO version only!
-# tinyletter:            <tinyletter_username>
+# Setting a disqus shortname will enable the comment section on
+# pages with `comments: true` in the front matter.
+# disqus:                <disqus_shortname>
 
+# Setting a tinyletter username will enable the newsletter subscription box.
+# tinyletter:            <tinyletter_username>
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -136,6 +142,10 @@ hydejack:
   # Set to `true` when building with the `--lsi` option
   use_lsi:             false
 
+  # When using Google Analytics, set to `true` to display a cookie notice banner.
+  # When enabled, no user-related data will be stored until the user gives consent.
+  cookies_banner:      false
+
 
 # Collections
 # ========================================================================================
@@ -161,6 +171,11 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+include:
+  - LICENSE.md
 
 
 # Plugins and Plugin Configuration
@@ -184,9 +199,8 @@ plugins:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
-remote_theme: qwtel/hydejack@gem-7.5.1
-
+theme: jekyll-theme-hydejack
+# remote_theme: qwtel/hydejack@gem
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -202,7 +216,7 @@ remote_theme: qwtel/hydejack@gem-7.5.1
 
 # Used for Twitter cards
 # twitter:
-#   username:            <twitter handle>
+#   username:            <shortname>
 
 # Used for Facebook open graph
 # facebook:
@@ -242,9 +256,11 @@ kramdown:
     preview_as_code:   true
 
 compress_html:
-  comments:            ['<!-- ', ' -->']
+  comments:            ["<!-- ", " -->"]
   clippings:           all
   endings:             all
+  ignore:
+    envs:              [development]
 
 sass:
   style:               compressed

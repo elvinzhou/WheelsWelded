@@ -1,50 +1,24 @@
-{% comment %}
-	Displays the site's navigation using the jekyll-menus plugin
-{% endcomment %}
-
-{% assign url = page.url | remove:'index.html' %}
-
-<header class="site-header">
-  <div class="container">
-      <h1 class="logo">
-        <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
-      </h1>
-      <nav class="main-nav">
-        <ul class="navigation">
-          {% for link in site.menus.navigation %}
-          <li class="{% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %}">
-            {% if link.children %}
-            <ul class="first-level">
-              {% for child in link.children %}
-              <li>
-                {% if child.children %}
-                <ul class="second-level">
-                  {% for child in child.children %}
-                  <li>
-                    <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
-                  </li>
-                  {% endfor %}
-                </ul>
-                {% endif %}
-                <a href="{{ child.url | absolute_url }}"{% if child.target %} target="_blank" {% endif %}>
-                  {{ child.title }}
-                  {% if child.childen %}
-                    <i class='icon-right-dir-2'></i>
-                  {% endif %}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-            <a href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
-                  {{ link.title }}
-                  {% if link.childen %}
-                    <i class='icon-chevron-down'></i>
-                  {% endif %}
-                </a>
-          </li>
-          {% endfor %}
-        </ul>
-    </nav>
-  </div>
-</header>
+<span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}</span>
+<ul>
+  {% assign pages = site.pages | where: "menu", true %}
+  {% assign documents = site.documents | where: "menu", true %}
+  {% assign nodes = pages | concat: documents | sort: "order" %}
+  {% for node in nodes %}
+    {% unless node.redirect_to %}
+      <li>
+        <a
+          {% if forloop.first %}id="_navigation"{% endif %}
+          href="{{ node.url | relative_url }}"
+          class="sidebar-nav-item{% if page.url contains node.url %} active{% endif %}"
+          {% if path.rel %}rel="{{ node.rel }}"{% endif %}
+          >
+          {{ node.title }}
+        </a>
+      </li>
+    {% else %}
+      <li>
+        <a href="{{ node.redirect_to }}" class="sidebar-nav-item external" >{{ node.title }}</a>
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
