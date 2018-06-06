@@ -15,7 +15,7 @@ url:                   https://wheelswelded.com
 # When using GitHub Pages, set to '' when hosting a user- or organization page,
 # i.e. when the name of the repository looks like <username>.github.io.
 # Otherwise, set to /<name of repository> (with leading /, but without the < >).
-baseurl:               /EchoZulu
+baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
@@ -48,7 +48,7 @@ author:
   name:                Elvin Zhou
   email:               elvin@wheelswelded.com
   # Used by `jekyll-seo-tag`:
-  # twitter:             @flagsfly 
+  # twitter:             @flagsfly
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2018. All rights reserved.
