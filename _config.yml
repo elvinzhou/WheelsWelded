@@ -31,7 +31,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  RV or bust!
+  Rivets. So Many Rivets.
 
 # A list of keywords for your blog
 keywords:              [RV-10, RV10, Vans, Experimental, Build, Aircraft]
@@ -112,7 +112,7 @@ hydejack:
   no_google_fonts:     false
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -158,7 +158,7 @@ collections:
 
   projects:
     permalink:         /projects/:path/
-    output:            true
+    output:            false
 
 
 # File inclusion/exclusion
@@ -193,10 +193,10 @@ plugins:
   - jekyll-sitemap
   # - jekyll-titles-from-headings
 
-# Theme
-# ---------------------------------------------------------------------------------------
+#Theme
+#---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 # remote_theme: qwtel/hydejack@gem
 
 # SEO Tag
