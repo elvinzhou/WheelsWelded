@@ -44,7 +44,7 @@ logo:                  /assets/icons/icon.png
 author:
   name:                <Elvin> <Zhou>
   email:               <elvin@wheelswelded.com>
-  Used by `jekyll-seo-tag`:
+  #Used by `jekyll-seo-tag`:
   twitter:             @elvin_zhou
 
 # This text will appear in a `<small>` tag in the footer of every page.
