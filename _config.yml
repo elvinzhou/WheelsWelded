@@ -307,3 +307,7 @@ compress_html:
 
 sass:
   style:               compressed
+  
+url: "https://www.wheelswelded.com" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
