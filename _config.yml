@@ -70,7 +70,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          https://upload.wikimedia.org/wikipedia/commons/b/b5/RV-10_inflight.jpg
+accent_image:          https://upload.wikimedia.org/wikipedia/commons/6/6a/RV-10_Landing_on_a_Grass_Strip_in_the_UK.jpg
 accent_color:          '#4fb1ba'
 
 # This is used for the `theme-color` meta tag,
