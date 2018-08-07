@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Section 6-2 Finished
+title: Finished first page
 description: >
   First task is finished! It looks sorta like an aircraft part now. 
 tags: [emp]
