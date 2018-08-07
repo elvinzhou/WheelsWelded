@@ -50,6 +50,7 @@ Money spent so far:
 | Empennage    | 4310              | 4310  |
 
 Time spent so far:
+
 | Task         | Time              | 
 |:-------------|:------------------|
 | Shop         | 36                |
