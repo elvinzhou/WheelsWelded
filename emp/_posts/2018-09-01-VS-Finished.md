@@ -28,6 +28,9 @@ And as you can see below, some slight damage to the skins due to high pressure w
 Some more pictures from different angles
 ![](https://i.imgur.com/FPj19sW.jpg)
 ![](https://i.imgur.com/2NOFtUL.jpg)
+
+The primer I used is the excellent SEM 39683 self etching primer. One coat, I just wash the parts with soapy water before hand and spray on. Decided against sanding for better adhesion because ultimately the primer is the sacrificial coat on top of the Alclad. So far though, the adhesion has been decent. Will definitely damage the primer if you scratch it, but otherwise it sticks just fine to the metal. No corrosion issues either currently and I'm less than 100 feet from the beach. 
+
 #Time and Cost
 
 
