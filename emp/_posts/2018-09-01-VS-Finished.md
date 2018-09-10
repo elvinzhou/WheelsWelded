@@ -7,8 +7,6 @@ tags: [emp] [milestone]
 ---
 # Flush Riveting
 
-![](https://imgur.com/3oo6eY0.jpg)
-
 Up until final assembly of the skin onto the ribs, I've done all of my riveting with my pneumatic squeezer. Which meant, the first time I picked up my 3x riveting gun
 was to rivet the middle nose ribs to the skins. This is straight into the deep end for a noob to riveting. Everything else on the vertical stablizer was easier to rivet it turns out than the middle ribs.
 Not only did I have to learn what pressures the rivet gun liked (125 psi is way too high btw, you want something like 60 -90), I also couldn't see the bucking bar. 
