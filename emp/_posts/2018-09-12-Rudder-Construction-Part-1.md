@@ -3,7 +3,7 @@ layout: post
 title: Rudder Construction Part 1
 description: >
   Sections 7-1 through 7-7
-tags: [emp] [rudder]
+tags: [emp]
 ---
 # Put away the VS...
 ...high on a shelf, started on the rudder!
