@@ -54,4 +54,4 @@ Time spent so far:
 | Rudder              | 10                |
 |**Totals:**          | 82                |
 
-*Finished
+* *Finished*
