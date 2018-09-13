@@ -3,7 +3,7 @@ layout: post
 title: Vertical Stabilizer Finished
 description: >
   Rivets Rivets Rivets, done with the VS.
-tags: [emp] [milestone]
+tags: [emp]
 ---
 # Flush Riveting
 
