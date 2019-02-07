@@ -309,6 +309,6 @@ compress_html:
 
 sass:
   style:               compressed
-  
+
  frontadder:
     - hours
