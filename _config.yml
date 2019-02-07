@@ -238,13 +238,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-frontadder
+  - jekyll-include-cache
 
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-# remote_theme: qwtel/hydejack@gem
+remote_theme: qwtel/hydejack@gem
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -309,6 +310,6 @@ compress_html:
 
 sass:
   style:               compressed
-  
+
  frontadder:
     - hours
