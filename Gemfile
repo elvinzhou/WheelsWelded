@@ -8,16 +8,25 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "github-pages"
 
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem 'jekyll-frontadder'
-end
+# To upgrade, run `bundle update`.
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "jekyll"
+gem "minimal-mistakes-jekyll"
+
+# The following plugins are automatically loaded by the theme-gem:
+#   gem "jekyll-paginate"
+#   gem "jekyll-sitemap"
+#   gem "jekyll-gist"
+#   gem "jekyll-feed"
+#   gem "jemoji"
+#   gem "jekyll-data"
+#   gem "jekyll-include-cache"
+#
+# If you have any other plugins, put them here!
+group :jekyll_plugins do
+  gem "jekyll-remote-theme"
+  gem "jekyll-frontadder"
+end

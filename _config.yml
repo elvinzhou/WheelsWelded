@@ -1,4 +1,4 @@
- Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -18,13 +18,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Wheels Welded"
 title_separator          : "-"
-name                     : "Elvin Zhou"
-description              : Building an RV-10, one rivet at a time
-url                      : https://www.wheelswelded.com
-baseurl                  : /
+name                     : "Wheels Welded"
+description              : "Building an RV-10 one rivet at a time"
+url                      : https://wheelswelded.com
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : elvinzhou/elvinzhou.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/icon/favicon.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -98,9 +98,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : google
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-123209023-1
+    tracking_id          :
     anonymize_ip         : # true, false (default)
 
 
@@ -108,13 +108,28 @@ analytics:
 author:
   name             : "Elvin Zhou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Aerospace Engineer documenting my build of the RV-10"
+  bio              : "I am an amazing person."
   location         : "Ocean City, MD"
   email            : elvin@wheelswelded.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:elvin@wheelswelded.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -217,6 +232,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
   - jekyll-frontadder
 
 # mimic GitHub Pages with --safe
