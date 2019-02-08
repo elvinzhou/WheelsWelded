@@ -59,4 +59,5 @@ Time spent so far:
 |:-------------|:------------------|
 | Shop         | {{ page.hours['shop'] }}                |
 | Vertical Stabilizer          | {{ page.hours['Vertical Stabilizer'] }}            |
-|**Totals:**   |{{ site.runtotal }}                |
+|**Totals:**   |{{ page.hours[total] }}                |
+|**Total Totals:**   |{{page.runtotal}}   |
