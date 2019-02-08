@@ -2,7 +2,7 @@
 layout: single
 description: >
   Sections 7-1 through 7-7
-tags: [emp][rudder][vs]
+tags: [emp, rudder, vs]
 hours:
   total: 10
   rudder: 10
