@@ -49,7 +49,7 @@ staticman:
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
-  path                   : "/_data/comments/{options.slug}" (default)
+  path                   : "/_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
@@ -57,7 +57,7 @@ staticman:
     date:
       type               : "date"
       options:
-        format           : "iso8601" (default)
+        format           : "iso8601"
   endpoint               : #https://dev.staticman.net/v3/entry/github/elvinzhou/elvinzhou.github.io/master/
 reCaptcha:
   siteKey                : 6Lf9BZAUAAAAAM_o3evI5y-hFy_eejfW2OgT624o
@@ -100,7 +100,7 @@ social:
 analytics:
   provider               : google
   google:
-    tracking_id          :UA-123209023-1
+    tracking_id          : UA-123209023-1
     anonymize_ip         : # true, false (default)
 
 
