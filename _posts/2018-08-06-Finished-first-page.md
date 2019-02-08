@@ -56,11 +56,11 @@ Money spent so far:
 
 Time spent so far:
 
-{{ page.hours }}
+{{ page.hours[runtotal] }}
 
 | Task         | Time              |
 |:-------------|:------------------|
-| Shop         | {{ page.hours.shop }}                |
+| Shop         | {{ page.hours[shop]] }}                |
 | 6-2          | 16                |
 | 6-3          | 4                 |
 |**Totals:**   |56                 |
