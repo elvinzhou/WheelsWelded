@@ -233,7 +233,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
-  - jekyll-frontadder
+  #- jekyll-frontadder
 
 # mimic GitHub Pages with --safe
 whitelist:
