@@ -55,10 +55,8 @@ Money spent so far:
 
 Time spent so far:
 
-
-
 | Task         | Time              |
 |:-------------|:------------------|
 | Shop         | {{ page.hours['shop'] }}                |
 | Vertical Stabilizer          | {{ page.hours['Vertical Stabilizer'] }}            |
-|**Totals:**   |{{ site.hours['total'] }}                |
+|**Totals:**   |{{ site.runtotal }}                |
