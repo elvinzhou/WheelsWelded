@@ -48,13 +48,5 @@ Money spent so far:
 | Shipping     | 300               | 524   |
 | Empennage    | 4310              | 4310  |
 
-Time spent so far:
-
-| Task                | Time              |
-|:--------------------|:------------------|
-| Shop                | 36                |
-| Vertical Stabilizer*| 36                |
-| Rudder              | 10                |
-|**Totals:**          | 82                |
 
 *_Finished_
