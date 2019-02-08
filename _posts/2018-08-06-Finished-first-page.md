@@ -7,8 +7,7 @@ tags: [emp]
 hours:
     total: 55
     shop: 36
-    parts:
-      Vertical Stabilizer:20
+    Vertical Stabilizer: 20
 ---
 # Cleco on, Cleco off
 
@@ -56,7 +55,7 @@ Money spent so far:
 
 Time spent so far:
 
-{{ page.hours[runtotal] }}
+{{ page.hours[total] }}
 
 | Task         | Time              |
 |:-------------|:------------------|
