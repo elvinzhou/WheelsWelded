@@ -1,19 +1,24 @@
 ---
-layout: post
+layout: single
 title: Finished first page
 description: >
-  First task is finished! It looks sorta like an aircraft part now. 
+  First task is finished! It looks sorta like an aircraft part now.
 tags: [emp]
+hours:
+    total: 55
+    shop: 36
+    parts:
+      Vertical Stabilizer:20
 ---
 # Cleco on, Cleco off
 
 ![](https://imgur.com/3oo6eY0.jpg)
 
-Lots of drilling and lots of putting clecos on and taking clecos off to assemble things in the correct order. Match Drill, Debur, Cleco, and back to the start. 
+Lots of drilling and lots of putting clecos on and taking clecos off to assemble things in the correct order. Match Drill, Debur, Cleco, and back to the start.
 
-This initial page took me a full 7 days to finish, albeit I wasn't working 8 hour days. More like an hour here, an hour there while I waited for replacement parts and stuff I didn't think about. 
+This initial page took me a full 7 days to finish, albeit I wasn't working 8 hour days. More like an hour here, an hour there while I waited for replacement parts and stuff I didn't think about.
 
-For instance, bought a belt sander so I could more easily trim ribs. Got some more air hoses and fittings too. 
+For instance, bought a belt sander so I could more easily trim ribs. Got some more air hoses and fittings too.
 
 Now I'm done with 6-2 and halfway through 6-3, but I'm waiting on my first bottle of primer to come before I proceed. The issues of living next to an ocean!
 
@@ -51,9 +56,11 @@ Money spent so far:
 
 Time spent so far:
 
-| Task         | Time              | 
+hash.runtotal
+
+| Task         | Time              |
 |:-------------|:------------------|
 | Shop         | 36                |
-| 6-2          | 16                | 
+| 6-2          | 16                |
 | 6-3          | 4                 |
 |**Totals:**   |56                 |
