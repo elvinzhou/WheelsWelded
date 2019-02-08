@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Vertical Stabilizer Finished
 description: >
   Rivets Rivets Rivets, done with the VS.
 tags: [emp][vs]

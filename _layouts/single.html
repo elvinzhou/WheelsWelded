@@ -44,14 +44,32 @@ layout: default
         {% endif %}
         {{ content }}
         Time spent:
-        | Category     | Time           |
-        |:-------------|:------------------|
-        | Vertical Stabilizer      | {{page.hours['Vertical Stabilizer']}}              |
-        | Elevator    | {{page.hours['elevator']}}               |
-        | Horizontal Stabilizer    | {{page.hours['hs']}}              |
-        |Rudder| {{page.hours['rudder']}}|
-        |Tail Cone| {{page.hours['tc']}}|
-
+        <table>
+        <tr>
+          <th>Category</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td>Vertical Stabilizer</td>
+          <td> {{page.hours['Vertical Stabilizer']}}  </td>
+        </tr>
+        <tr>
+          <td>Elevator</td>
+          <td>{{page.hours['elevator']}}</td>
+        </tr>
+        <tr>
+          <td>Horizontal Stabilizer</td>
+          <td>{{page.hours['hs']}}</td>
+        </tr>
+        <tr>
+          <td>Rudder</td>
+          <td>{{page.hours['rudder']}}</td>
+        </tr>
+        <tr>
+          <td>Tail Cone</td>
+          <td>{{page.hours['tc']}}</td>
+        </tr>
+        </table>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

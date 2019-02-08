@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Rudder Construction Part 1
 description: >
   Sections 7-1 through 7-7
 tags: [emp][rudder][vs]

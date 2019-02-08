@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Set To Cure
 description: >
   Section 7-7 through 7-12
 tags: [emp][rudder]

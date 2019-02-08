@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Finished first page
 description: >
   First task is finished! It looks sorta like an aircraft part now.
 tags: [emp][vs]
