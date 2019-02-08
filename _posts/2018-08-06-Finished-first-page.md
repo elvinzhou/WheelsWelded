@@ -3,7 +3,7 @@ layout: single
 title: Finished first page
 description: >
   First task is finished! It looks sorta like an aircraft part now.
-tags: [emp]
+tags: [emp][vs]
 hours:
     total: 55
     shop: 36
@@ -52,12 +52,3 @@ Money spent so far:
 | Tools        | 3800              | 3750  |
 | Shipping     | 300               | 524   |
 | Empennage    | 4310              | 4310  |
-
-Time spent so far:
-
-| Task         | Time              |
-|:-------------|:------------------|
-| Shop         | {{ page.hours['shop'] }}                |
-| Vertical Stabilizer          | {{ page.hours['Vertical Stabilizer'] }}            |
-|**Totals:**   |{{ page.hours['total'] }}                |
-|**Total Totals:**   |{{ site.hours ['total'] }}   |

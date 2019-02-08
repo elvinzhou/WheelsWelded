@@ -1,13 +1,16 @@
 ---
-layout: post
+layout: single
 title: Set To Cure
 description: >
   Section 7-7 through 7-12
-tags: [emp]
+tags: [emp][rudder]
+hours:
+  rudder: 15
+  total: 15
 ---
 # Back-riveting
 
-Back riveting is essentially the best thing ever. Well, slightly worse than I thought because I don't have a back riveting plate, so I was awkwardly shuffling my bucking bar around. But it's a happy medium between the precision of the squeezer and the speed of the rivet gun. Put a strip of painters tape down and I can knock out an entire line of rivets in a minute or so. Not as precise as a squeezer of course but much easier to get good rivets than using a rivet gun. 
+Back riveting is essentially the best thing ever. Well, slightly worse than I thought because I don't have a back riveting plate, so I was awkwardly shuffling my bucking bar around. But it's a happy medium between the precision of the squeezer and the speed of the rivet gun. Put a strip of painters tape down and I can knock out an entire line of rivets in a minute or so. Not as precise as a squeezer of course but much easier to get good rivets than using a rivet gun.
 
 ![](https://i.imgur.com/Tgvgzfz.jpg)
 

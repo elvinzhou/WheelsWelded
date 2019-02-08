@@ -43,6 +43,15 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
+        Time spent:
+        | Category     | Time           |
+        |:-------------|:------------------|
+        | Vertical Stabilizer      | {{page.hours['Vertical Stabilizer']}}              |
+        | Elevator    | {{page.hours['elevator']}}               |
+        | Horizontal Stabilizer    | {{page.hours['hs']}}              |
+        |Rudder| {{page.hours['rudder']}}|
+        |Tail Cone| {{page.hours['tc']}}|
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
