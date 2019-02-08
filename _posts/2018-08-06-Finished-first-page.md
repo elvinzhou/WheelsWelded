@@ -56,7 +56,7 @@ Money spent so far:
 
 Time spent so far:
 
-{{page.runtotal}}
+{{ hours.runtotal }}
 
 | Task         | Time              |
 |:-------------|:------------------|
