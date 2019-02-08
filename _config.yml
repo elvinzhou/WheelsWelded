@@ -21,8 +21,8 @@ title_separator          : "-"
 name                     : "Wheels Welded"
 description              : "Building an RV-10 one rivet at a time"
 url                      : https://wheelswelded.com
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : elvinzhou/elvinzhou.github.io
+#baseurl                  : # the subpath of your site, e.g. "/blog"
+#repository               : elvinzhou/elvinzhou.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
