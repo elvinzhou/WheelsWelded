@@ -1,32 +1,32 @@
 ---
-layout:single
-tags:[emp, hs, elevator, tailcone]
+layout: single
+tags: [emp, hs, elevator, tailcone]
 ---
 
-It's been 4 months since my last update. Between a website and theme that was falling apart and the holiday's, I elected to focus on building the plane instead of doing any updates. 
-My goal here is mainly to summarize deviations and other issues I found while building, and I think going forward that is what I'm going to be focusing on with this blog. 
+It's been 4 months since my last update. Between a website and theme that was falling apart and the holiday's, I elected to focus on building the plane instead of doing any updates.
+My goal here is mainly to summarize deviations and other issues I found while building, and I think going forward that is what I'm going to be focusing on with this blog.
 
 With that said...
 
 ## Horizontal Stabilizer
 
-After screwing up the spar, I got a new spar from Vans and worked through the Horizontal Stabilizer. 
-Two things to note here. 
+After screwing up the spar, I got a new spar from Vans and worked through the Horizontal Stabilizer.
+Two things to note here.
 
 1. Count your rivets. You're going to be depleting 1 or 2 bags of rivets here. If you messed up or dropped your rivets anytime in the past, now would be the time to count your rivets and order more if you need them.
-I had to order more LP4-3's and some AD3's. 
+I had to order more LP4-3's and some AD3's.
 
 2. I went into this in detail at the [VAF post here](http://www.vansairforce.com/community/showthread.php?t=167790).
 Reproduced below:
 >I ran into issues riveting this section and I did a search on VAF and builder websites but I didn't see anyone else specifically address this section so I'm assuming this may be a unique problem due to my circumstances, but I want to document what I did in case anyone in the future runs into this issue.
 >
->Problem: It's a PITA to rivet the 40 rivets between the middle HS-905 nose ribs and the skins. Lots of rivets got drilled out and holes were enlarged on the middle nose ribs. 
+>Problem: It's a PITA to rivet the 40 rivets between the middle HS-905 nose ribs and the skins. Lots of rivets got drilled out and holes were enlarged on the middle nose ribs.
 >
 >Possible contributing factors:
->1. I'm short. With an EAA-1000 table and the cradle, I need to stand on the tip of my toes AND tip the horizontal stabilizer to even reach some of the holes at the bottom. 
->2. I used a shortcut and used nylon straps instead of the plywood that Vans calls out. While this saves a bit of time for those of us that don't have wood working tools handy, it also means that the HS is free to move about in its cradle. 
->3. I could not scrounge up any helpers. Being young, single, and living in a rural area that you recently moved to will do that to you. 
->4. I only have two hands and could not locate more, see 3. 
+>1. I'm short. With an EAA-1000 table and the cradle, I need to stand on the tip of my toes AND tip the horizontal stabilizer to even reach some of the holes at the bottom.
+>2. I used a shortcut and used nylon straps instead of the plywood that Vans calls out. While this saves a bit of time for those of us that don't have wood working tools handy, it also means that the HS is free to move about in its cradle.
+>3. I could not scrounge up any helpers. Being young, single, and living in a rural area that you recently moved to will do that to you.
+>4. I only have two hands and could not locate more, see 3.
 >
 >Some more explanation:
 >
@@ -44,10 +44,10 @@ Reproduced below:
 >A quick photo showing my setup. You can see how the nylon straps allow a substantial amount of movement to either side.
 
 ## Elevators
-Not much to say here. Finished them, leaving the trib tabs for now because I oversqueezed them. Fun. Waiting for the replacement skin to ship from Vans. 
+Not much to say here. Finished them, leaving the trib tabs for now because I oversqueezed them. Fun. Waiting for the replacement skin to ship from Vans.
 
 ## Tailcone
 This is fairly new actually, started this part a few days ago. I'm renovating the other 3/4s of the house, so I took over the dining room.
 ![](https://i.imgur.com/pCahzSY.jpg)
 
-It's...rough. 
+It's...rough.
