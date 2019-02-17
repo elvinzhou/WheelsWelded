@@ -6,6 +6,7 @@ hours:
   hs: 51
   elevator: 49
   tc: 17
+comments: true
 ---
 
 It's been 4 months since my last update. Between a website and theme that was falling apart and the holiday's, I elected to focus on building the plane instead of doing any updates.
