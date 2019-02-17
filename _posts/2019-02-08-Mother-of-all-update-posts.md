@@ -2,6 +2,7 @@
 layout: single
 tags: [emp, hs, elevator, tailcone]
 hours:
+  total: 117
   hs: 51
   elevator: 49
   tailcone: 17

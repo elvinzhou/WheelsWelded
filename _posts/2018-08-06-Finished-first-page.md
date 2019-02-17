@@ -8,7 +8,7 @@ hours:
     shop: 36
     Vertical Stabilizer: 20
 ---
-# Cleco on, Cleco off
+## Cleco on, Cleco off
 
 ![](https://imgur.com/3oo6eY0.jpg)
 
@@ -41,7 +41,7 @@ And lastly, this is where I left off, with the skin cleco'd and stretched over t
 
 ![](https://imgur.com/rrPYhIr.jpg)
 
-#Time and Cost
+## Time and Cost
 
 
 Money spent so far:

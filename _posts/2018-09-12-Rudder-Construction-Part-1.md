@@ -7,7 +7,7 @@ hours:
   total: 10
   rudder: 10
 ---
-# Put away the VS...
+## Put away the VS...
 ...high on a shelf, started on the rudder!
 
 ![Well I'm really half way through](https://i.imgur.com/R2B2hsD.jpg)
@@ -22,7 +22,7 @@ Got a new belt sander too! I cut and then sanded the AEX piece to make R-1006, a
 
 Also time to buy proseal and a dowel so it gets here before the weekend! Ordering from Vans for now until I can figure out what MFG P/N they are using, see if Amazon carries it or not.
 
-#7-6 Step 10
+## 7-6 Step 10
 
 For people like me that can't see how Section 5K is related at all to bending the trailing edge of the rudder, Vans means Section 5.10. I'm not sure why they can't just reference it with numbers but instead use letters in the drawings and numbers
 on the actual section headings. But if you counted up to K and looked for 5.11... The front of Section 5 actually gives you the corresponding code, and there's no 5I. I just jumped straight through instead of reading around a bit.
@@ -30,13 +30,13 @@ on the actual section headings. But if you counted up to K and looked for 5.11..
 Now for actual technique, Vans recommends using a block of wood or plastic if you don't have a dedicated tool for this job. I didn't have wood or plastic either. But since I still have the vinyl on the skins, I used a bucking bar instead. Let the outside 1/4 inch hang from the table,
 and pushed down using the bucking bar. Worked like a charm.
 
-#Short Plug
+## Short Plug
 
 Gotta give a shout out to this tool here: [Hex Shank Deburring](http://www.cleavelandtool.com/Hex-Shank-Hole-Deburring-Tool/productinfo/DB04/)
 
 So much better than the pencil tool. Knocked out the rudder skins in about half an hour. I've heard you could get proficient enough with the pencil tool to do the same, but you get that proficiency with power tools right out of the gate.
 
-#Time and Cost
+## Time and Cost
 
 
 Money spent so far:
