@@ -1,6 +1,10 @@
 ---
 layout: single
 tags: [emp, hs, elevator, tailcone]
+hours:
+  hs: 51
+  elevator: 49
+  tailcone: 17
 ---
 
 It's been 4 months since my last update. Between a website and theme that was falling apart and the holiday's, I elected to focus on building the plane instead of doing any updates.
