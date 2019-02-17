@@ -5,7 +5,7 @@ hours:
   total: 117
   hs: 51
   elevator: 49
-  tailcone: 17
+  tc: 17
 ---
 
 It's been 4 months since my last update. Between a website and theme that was falling apart and the holiday's, I elected to focus on building the plane instead of doing any updates.
