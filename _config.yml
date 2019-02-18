@@ -278,7 +278,7 @@ frontadder:
 
 # Defaults
 defaults:
-  _posts
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -289,7 +289,7 @@ defaults:
       comments: true
       share: true
       related: true
-   _pages
+  # _pages
   - scope:
       path: ""
       type: pages
