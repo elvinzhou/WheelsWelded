@@ -2,6 +2,7 @@
 
 permalink: /about/
 comments: false
+layout: posts 
 ---
 
 ###What's the RV-10?
