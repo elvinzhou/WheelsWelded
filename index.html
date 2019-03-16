@@ -1,4 +1,41 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+title: "Home"
+header:
+  image: https://upload.wikimedia.org/wikipedia/commons/b/b5/RV-10_inflight.jpg
 ---
+
+<table>
+<tr>
+  <th>Category</th>
+  <th>Time</th>
+</tr>
+<tr>
+  <td>Vertical Stabilizer</td>
+  <td> {{site.hours['Vertical Stabilizer']}}  </td>
+</tr>
+<tr>
+  <td>Elevator</td>
+  <td>{{site.hours['elevator']}}</td>
+</tr>
+<tr>
+  <td>Horizontal Stabilizer</td>
+  <td>{{site.hours['hs']}}</td>
+</tr>
+<tr>
+  <td>Rudder</td>
+  <td>{{site.hours['rudder']}}</td>
+</tr>
+<tr>
+  <td>Tail Cone</td>
+  <td>{{site.hours['tc']}}</td>
+</tr>
+</table>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
