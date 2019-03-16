@@ -58,7 +58,7 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601"
-  endpoint               : https://dev.staticman.net/v3/entry/github/elvinzhou/elvinzhou.github.io/master/
+  endpoint               : https://dev.staticman.net/v3/entry/github/elvinzhou/elvinzhou.github.io/master
 reCaptcha:
   siteKey                : 6Lf9BZAUAAAAAM_o3evI5y-hFy_eejfW2OgT624o
   secret                 : 6Lf9BZAUAAAAAEyJyGreoB_2R8pFxczCNsiAIg0u
