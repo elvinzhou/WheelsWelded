@@ -57,3 +57,5 @@ This is fairly new actually, started this part a few days ago. I'm renovating th
 ![](https://i.imgur.com/pCahzSY.jpg)
 
 It's...rough.
+
+{hours.runtotal}
