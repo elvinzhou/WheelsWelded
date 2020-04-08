@@ -45,10 +45,10 @@ comments:
     issue_term           : # "pathname" (default)
   staticman:
     branch               : "master" # "master"
-    endpoint             : https://api.staticman.net/v2/entry/elvinzhou/elvinzhou.github.io/master/ # "https://{your Staticman v3 API}/v3/entry/github/"
+    endpoint             : "https://api.staticman.net/v2/entry/elvinzhou/elvinzhou.github.io/master/" # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                : 6Lf9BZAUAAAAAM_o3evI5y-hFy_eejfW2OgT624o
-  secret                 : 6Lf9BZAUAAAAAEyJyGreoB_2R8pFxczCNsiAIg0u
+  siteKey                : "6Lf9BZAUAAAAAM_o3evI5y-hFy_eejfW2OgT624o"
+  secret                 : "6Lf9BZAUAAAAAEyJyGreoB_2R8pFxczCNsiAIg0u"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
@@ -63,14 +63,14 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : hgWqS_fZQzT9wZcKA7SSqqcGRIwwX64rEXH53abxZL0
+google_site_verification : "hgWqS_fZQzT9wZcKA7SSqqcGRIwwX64rEXH53abxZL0"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : @elvin_zhou
+  username               : "@elvin_zhou"
 facebook:
   username               :
   app_id                 :
@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Elvin Zhou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Aerospace Engineer by day, RV-10 builder by night.
+  bio              : "Aerospace Engineer by day, RV-10 builder by night.""
   location         : "California"
-  email            : elvin@wheelswelded.com
+  email            : "elvin@wheelswelded.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto: elvin@wheelswelded.com
+      url: mailto: "elvin@wheelswelded.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/elvin_zhou"
