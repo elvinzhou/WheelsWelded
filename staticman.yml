@@ -98,7 +98,7 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: false
-    siteKey: "6Lf9BZAUAAAAAM_o3evI5y-hFy_eejfW2OgT624o"
+    siteKey: "6LcpvOcUAAAAAFW41uH8BGbZlosYP4MGBJLe3Xgp"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: "c+4rIEi6pYKy0I8TCveEp+ItIaJbTBv+VhzKRuiNbefnwLe35t47gD+tfGvIBreGXBfNd4yp75E5M3ufN3EPmfu/U3hza+CbUbPUzFrR7VsblWLwKSbxIQqup/LxsY1onJXNIMf4g7B+qlGxfuem4WE7pI6xDAIMdV0d0SQT4TI="
+    secret: "6LcpvOcUAAAAAA5WFt1a2Fd4TonDh1zQr9ZMM9rM"

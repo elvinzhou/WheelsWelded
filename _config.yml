@@ -47,8 +47,8 @@ comments:
     branch               : "master" # "master"
     endpoint             : "https://api.staticman.net/v2/entry/elvinzhou/elvinzhou.github.io/master/" # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                : "6Lf9BZAUAAAAAM_o3evI5y-hFy_eejfW2OgT624o"
-  secret                 : "6Lf9BZAUAAAAAEyJyGreoB_2R8pFxczCNsiAIg0u"
+  siteKey                : "6LcpvOcUAAAAAFW41uH8BGbZlosYP4MGBJLe3Xgp"
+  secret                 : "6LcpvOcUAAAAAA5WFt1a2Fd4TonDh1zQr9ZMM9rM"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
