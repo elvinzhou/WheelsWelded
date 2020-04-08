@@ -2,7 +2,7 @@
 
 permalink: /about/
 comments: false
-layout: singleabout
+layout: single
 ---
 
 ### What's the RV-10?

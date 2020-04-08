@@ -2,7 +2,7 @@
 layout: single
 description: >
   Rivets Rivets Rivets, done with the VS.
-tags: [emp, vs]
+categories: [emp, vs]
 hours:
   shop: 0
   Vertical Stabilizer: 16

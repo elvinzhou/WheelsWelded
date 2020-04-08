@@ -1,6 +1,6 @@
 ---
 layout: single
-tags: [emp, hs, elevator, tailcone]
+categories: [emp, hs, elevator, tailcone]
 hours:
   total: 117
   hs: 51
