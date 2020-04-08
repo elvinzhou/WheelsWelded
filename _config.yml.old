@@ -10,27 +10,26 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+#theme                    : "minimal-mistakes-jekyll"
 remote_theme:            "mmistakes/minimal-mistakes@4.19.1"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "WheelsWelded"
+title                    : "Wheels Welded"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Wheels Welded"
 description              : "Building an RV-10 one rivet at a time"
-url                      : https://wheelswelded.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : elvinzhou/elvinzhou.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : https://wheelswelded.com
+#baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : elvinzhou/elvinzhou.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : staticman_v2 # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : staticman_v2
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -43,9 +42,23 @@ comments:
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
-  staticman:
-    branch               : "master" # "master"
-    endpoint             : https://api.staticman.net/v2/entry/elvinzhou/elvinzhou.github.io/master/ # "https://{your Staticman v3 API}/v3/entry/github/"
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "master"
+  commitMessage          : "New comment by {fields.name}"
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
+  endpoint               : https://dev.staticman.net/v3/entry/github/elvinzhou/elvinzhou.github.io/master
 reCaptcha:
   siteKey                : 6Lf9BZAUAAAAAM_o3evI5y-hFy_eejfW2OgT624o
   secret                 : 6Lf9BZAUAAAAAEyJyGreoB_2R8pFxczCNsiAIg0u
@@ -70,7 +83,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : @elvin_zhou
+  username               : "@elvin_zhou"
 facebook:
   username               :
   app_id                 :
@@ -85,7 +98,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : google
   google:
     tracking_id          : UA-123209023-1
     anonymize_ip         : # true, false (default)
@@ -95,13 +108,10 @@ analytics:
 author:
   name             : "Elvin Zhou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Aerospace Engineer by day, RV-10 builder by night.
-  location         : "California"
+  bio              : Aerospace Engineer on the Eastern Shore, building an RV-10.
+  location         : "Ocean City, MD"
   email            : elvin@wheelswelded.com
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto: elvin@wheelswelded.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/elvin_zhou"
@@ -117,13 +127,23 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/elvin_zhou"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/elvinzhou"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/elvinzho"
+      # url:
+
 
 # Reading Files
 include:
@@ -150,7 +170,6 @@ exclude:
   - log
   - node_modules
   - package.json
-  - package-lock.json
   - Rakefile
   - README
   - tmp
@@ -186,7 +205,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
@@ -202,7 +221,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
   - jekyll-frontadder
 
 # mimic GitHub Pages with --safe
@@ -211,6 +232,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 
@@ -222,8 +244,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -244,12 +266,15 @@ tag_archive:
 
 
 # HTML Compression
-# - https://jch.penibelst.de/
+# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
 
+frontadder:
+  - hours
+  - money
 
 # Defaults
 defaults:
@@ -260,7 +285,14 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true # true
+      read_time: false
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
