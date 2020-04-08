@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Elvin Zhou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Aerospace Engineer by day, RV-10 builder by night.""
+  bio              : "Aerospace Engineer by day, RV-10 builder by night."
   location         : "California"
   email            : "elvin@wheelswelded.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto: "elvin@wheelswelded.com"
+      url: "mailto: elvin@wheelswelded.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/elvin_zhou"
@@ -203,7 +203,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-frontadder
 
 # mimic GitHub Pages with --safe
 whitelist:
