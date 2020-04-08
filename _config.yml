@@ -45,7 +45,7 @@ comments:
     issue_term           : # "pathname" (default)
   staticman:
     branch               : "master" # "master"
-    endpoint             : "https://ww-staticman.herokuapp.com/v2/entry/elvinzhou/elvinzhou.github.io/master/" # "https://{your Staticman v3 API}/v3/entry/github/"
+    endpoint             : "https://ww-staticman.herokuapp.com/v2/entry/" # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                : "6LcpvOcUAAAAAFW41uH8BGbZlosYP4MGBJLe3Xgp"
   secret                 : "plem8jhMxrQSSooyElLMYkZmaR1RYqguiPhdNPx3P+sTl009PGqGVL0yiPYFIBduHgeTqwwTU4PlEpXedkCeb0sI/luQCqOF+OIDmMF3fk3G1Jv3xhkQcZke27LNglAjjBCnxkQsN8gheJ/JHv5XfOJa+3vKHp6saVDo2aX23QlIODXDduajIe4Wre28sR/c00AsiUfkZ/uZ0+S9NKFkcG4MdEN2PG8B8+0veOkRsFySBC7U4e2DRbTCdoIBIBrmORseWJJKe4cGJ/PMnwm9LwURkkjEDJj4r5em4Sh4oub2mOmBhbtQ+ZYU93TjCyhaoIAROLSzRezp5o+Hof8SVLZfnynbLxt+yi6uGNzu2hqUJF1GWKaeUer78G8VfL4KeuyghTBs/033fEQV0W1kJqdmXbUx4722MmUwjwpNqfwj1rupgCL+MMX8UvDWKhffiNV/1UAckSMa7HGGcjIiVMywqzPt3q4hu53IaVkYVfvwW8hUzpCgqFed5ACGnG8aH7GWlOzYArm6oDQXVNhLeMzpqtAwq5rHBaD+SSHioH++0/98bwayHR6WQMq7HQRgfFzLhMZpuPcUPo4SFZfR6/hvdOaLeHA+DNngYbLq+VdFNwhvfS+AvXd+3XFnFqd/lHPBBmmfoOzNEli6nze2MjPXplwo1CeFo+WdlPhmXfY="
