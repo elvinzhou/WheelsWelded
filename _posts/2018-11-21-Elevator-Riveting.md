@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: Elevator Riveting
 description: >
   Sections 9-7 through 9-11
