@@ -1,6 +1,7 @@
 ---
 layout: single
-categories: [emp, hs, elevator, tailcone]
+categories: [emp]
+tags: [hs, elevator, tailcone]
 hours:
   total: 117
   hs: 51
@@ -57,5 +58,3 @@ This is fairly new actually, started this part a few days ago. I'm renovating th
 ![](https://i.imgur.com/pCahzSY.jpg)
 
 It's...rough.
-
-{hours.runtotal}

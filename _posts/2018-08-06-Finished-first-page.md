@@ -2,7 +2,9 @@
 layout: single
 description: >
   First task is finished! It looks sorta like an aircraft part now.
-categories: [emp, vs]
+categories: [emp]
+tags: [vs]
+comments: true
 hours:
     total: 55
     shop: 36

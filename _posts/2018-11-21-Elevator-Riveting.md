@@ -3,7 +3,9 @@ layout: single
 title: Elevator Riveting
 description: >
   Sections 9-7 through 9-11
-categories: [emp,elevator]
+categories: [emp]
+tags: [elevator]
+comments: true
 ---
 # Proseal and rivets?
 Bought another can of proseal from Van's. Turns out I still can't get away from a messy evening even after discovering 3M tape. The proseal is needed for sealing the foam ribs to the elevator. Also, 9-10 has a throwaway line to mask off the areas needed for the foam ribs so the proseal can bond directly to aluminum. I found it much easier to prime, and then sand off the primer in the areas needed, especially since I'm using rattle can primer. The primer and the alclad came off with a few seconds of sandpaper mounted to a die grinder.

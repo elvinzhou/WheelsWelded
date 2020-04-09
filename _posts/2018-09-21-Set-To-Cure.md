@@ -2,10 +2,12 @@
 layout: single
 description: >
   Section 7-7 through 7-12
-categories: [emp, rudder]
+categories: [emp]
+tags: [rudder]
 hours:
   rudder: 15
   total: 15
+comments: true
 ---
 ## Back-riveting
 

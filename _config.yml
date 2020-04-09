@@ -125,6 +125,10 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/elvinzho"
 
+# frontadder
+frontadder:
+  - hours
+
 # Reading Files
 include:
   - .htaccess
@@ -204,6 +208,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -211,6 +216,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
 
 
 # Archives
