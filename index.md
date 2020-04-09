@@ -13,6 +13,18 @@ feature_row:
     excerpt: "Everything related to construction of the empennage"
     url: "/categories/emp/"
     btn_label: "Go"
+  - image_path: "https://i.imgur.com/pCahzSY.jpg"
+    alt: "placeholder image 1"
+    title: "Fuselage"
+    excerpt: "Everything related to construction of the fuselage"
+    url: "/categories/fuse/"
+    btn_label: "Go"
+  - image_path: "https://i.imgur.com/pCahzSY.jpg"
+    alt: "placeholder image 1"
+    title: "Mods"
+    excerpt: "Everything off-plans"
+    url: "/categories/mods/"
+    btn_label: "Go"
 ---
 
 {% include feature_row %}
