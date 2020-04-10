@@ -13,7 +13,7 @@ feature_row:
     excerpt: "Everything related to construction of the empennage"
     url: "/categories/emp/"
     btn_label: "Go"
-  - image_path: "https://i.imgur.com/pCahzSY.jpg"
+  - image_path: "/assets/img/fusestand5.jpg"
     alt: "placeholder image 1"
     title: "Fuselage"
     excerpt: "Everything related to construction of the fuselage"
