@@ -19,7 +19,7 @@ feature_row:
     excerpt: "Everything related to construction of the fuselage"
     url: "/categories/fuse/"
     btn_label: "Go"
-  - image_path: "https://i.imgur.com/pCahzSY.jpg"
+  - image_path: "/assets/img/conduit.jpg"
     alt: "placeholder image 1"
     title: "Mods"
     excerpt: "Everything off-plans"
