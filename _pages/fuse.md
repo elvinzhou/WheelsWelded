@@ -1,6 +1,6 @@
 ---
 layout: category
 permalink: /categories/fuse/
-categories: fuse
+taxonomy: fuse
 title: "Fuselage Build"
 ---

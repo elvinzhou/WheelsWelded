@@ -1,6 +1,6 @@
 ---
 layout: category
 permalink: /categories/emp/
-categories: emp
+taxonomy: emp
 title: "Empennage Build"
 ---

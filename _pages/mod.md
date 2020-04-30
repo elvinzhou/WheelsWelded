@@ -1,6 +1,6 @@
 ---
 layout: category
 permalink: /categories/mods/
-categories: mod
+taxonomy: mod
 title: "Everything Off-Plans"
 ---
