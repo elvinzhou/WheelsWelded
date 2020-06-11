@@ -35,5 +35,5 @@ feature_row:
 | --- | --- |
 {% for item in site.data.Publish -%}
 | {{item.Category}} | {{item.Time}} |
-{%- endfor -%}
+{%- endfor %}
 {% include feature_row %}
