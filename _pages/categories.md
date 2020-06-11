@@ -2,6 +2,6 @@
 
 permalink: /categories/
 comments: false
-layout: categories
+layout: category
 entries: grid
 ---
