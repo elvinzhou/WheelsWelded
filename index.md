@@ -30,6 +30,7 @@ feature_row:
 <!-- Pulls from _data links -->
 
 # Time
+
 | Category | Time |
 | ---------- | ------ |
 {%- for item in site.data.Publish -%}
