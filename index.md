@@ -26,5 +26,11 @@ feature_row:
     url: "/categories/mods/"
     btn_label: "Go"
 ---
+<!-- Pulls from _data links -->
+
+# Time
+{% for item in site.data.Publish %}
+| Category | Time |
+|{{item.Category}}|{{item.time}}|
 
 {% include feature_row %}
