@@ -32,10 +32,8 @@ feature_row:
 # Time
 
 | Category | Time |
-
 | --- | --- |
-
-{%- for item in site.data.Publish -%}
+{% for item in site.data.Publish -%}
 | {{item.Category}} | {{item.Time}} |
 {%- endfor -%}
 {% include feature_row %}
