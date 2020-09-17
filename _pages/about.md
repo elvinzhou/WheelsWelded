@@ -3,6 +3,7 @@
 permalink: /about/
 comments: false
 layout: single
+title: About The Project
 ---
 
 ### What's the RV-10?
