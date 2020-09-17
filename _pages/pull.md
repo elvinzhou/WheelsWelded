@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Update Spreadsheet
-permalink: /pull/index.html
+permalink: /pull/
 ---
 
 <!--These are JavaScript Libraries-->
