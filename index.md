@@ -28,6 +28,7 @@ feature_row:
 ---
 
 <!-- Pulls from _data links -->
+{% include feature_row %}
 
 # Time
 
@@ -36,4 +37,4 @@ feature_row:
 {% for item in site.data.Publish -%}
 | {{item.Category}} | {{item.Time}} |
 {% endfor %}
-{% include feature_row %}
+{:wide}
