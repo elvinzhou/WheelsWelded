@@ -3,8 +3,7 @@ layout: single
 categories: [fuse, mod]
 tags: [flaps]
 comments: true
-header:
-  image: /assets/img/flapmotor.jpg
+
 ---
 
 # PHAviation Flap Motor install
@@ -44,7 +43,7 @@ To clarify, you're making potentially 6 pieces of angle:
 6. Right lower attachment angle (maybe)
 
 Here's some notes on stuff that I stumbled on while working off this install manual.
-- The two pictures on the first page show you what you'll need to make. On the left, you'll need to make 4 pieces of angle. The bottom two pieces (1) and (2) are made from 1X1X1/16 Angle and roughly need to be cut to around 3 inches long. It doesn't really matter, essentially the only controlling part is spacing the current flap motor mounting holes and the new holes 1.5 inches apart. (3) and (4) bolt onto (1) and (2) and are made from 1.5 X 1.5 X 1/16 angle. In the right picture, you'll need to fab a piece of angle to replace the left flap motor attach angle in the plane (this is (5)). This piece is attached via bolts, and is triangular in shape. Replace this piece with what is in the picture. The stuff in the left picture (1) & (2) will bolt on to the flap motor attach angles (5) and maybe (6). 
+- The two pictures on the first page show you what you'll need to make. On the left, you'll need to make 4 pieces of angle. The bottom two pieces (1) and (2) are made from 1X1X1/16 Angle and roughly need to be cut to around 3 inches long. It doesn't really matter, essentially the only controlling part is spacing the current flap motor mounting holes and the new holes 1.5 inches apart. (3) and (4) bolt onto (1) and (2) and are made from 1.5 X 1.5 X 1/16 angle. In the right picture, you'll need to fab a piece of angle to replace the left flap motor attach angle in the plane (this is (5)). This piece is attached via bolts, and is triangular in shape. Replace this piece with what is in the picture. The stuff in the left picture (1) & (2) will bolt on to the flap motor attach angles (5) and maybe (6).
 - Here's a pic of the left bracket:
 ![](/assets/img/leftbracket.jpg)
 - If you don't have a 90 degree drill attachment and a short drill bit that will fit, you might as well go ahead and drill out the right flap motor attachment angle now. You can either replace it with an identical piece (6) to what you made for the left attachment angle (this is probably easier), or you can follow the instructions and drill a second smaller hole using the existing attachment angle.
