@@ -25,7 +25,6 @@ feature_row:
     excerpt: "Everything off-plans"
     url: "/categories/mods/"
     btn_label: "Go"
-
 ---
 
 <!-- Pulls from _data links -->
