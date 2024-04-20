@@ -14,7 +14,7 @@ I want to document this install as the current install manual isn't as detailed 
 
 First of all, [here's the product in question](https://www.phaviation.com/products/product-category/rv-10-14-flap-actuator/). It's an all in one unit that saves you from wiring up a position sensor and has an integrated stop in the unit.
 
-[Here's the install manual that I'm working off of.](/assets/files/flapmotor.pdf)
+[Here's the install manual that I'm working off of.](/assets/file/flapmotor.pdf)
 
 ## BOM
 - 1 AN5-23 Undrilled Bolt
