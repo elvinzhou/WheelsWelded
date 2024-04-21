@@ -11,7 +11,7 @@ import remarkGfm from 'remark-gfm';
 const config = {
   title: 'WheelsWelded',
   tagline: 'RV-10 N662EZ',
-  favicon: 'img/favicon.ico',
+  favicon: 'assets/img/logo.png',
 
   // Set the production url of your site here
   url: 'https://www.wheelswelded.com',
@@ -63,7 +63,7 @@ const config = {
         title: 'RV-10',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'assets/img/logo.png',
         },
         items: [
           {
@@ -83,24 +83,7 @@ const config = {
             items: [
               {
                 label: 'POH',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                to: '/docs/Front-Page',
               },
             ],
           },
@@ -114,7 +97,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Elvin Zhou`,
+        copyright: `Copyright © ${new Date().getFullYear()} WheelsWelded`,
       },
       prism: {
         theme: prismThemes.github,
