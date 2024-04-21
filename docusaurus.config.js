@@ -72,6 +72,12 @@ const config = {
             position: 'left',
             label: 'POH',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'AMMSidebar',
+            position: 'left',
+            label: 'AMM',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
