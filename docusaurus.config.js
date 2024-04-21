@@ -85,11 +85,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'POH',
+            title: 'Manuals',
             items: [
               {
-                label: 'POH',
-                to: '/docs/Front-Page',
+                label: 'Pilot Operating Handbook',
+                to: '/docs/POH/Front-Page',
               },
             ],
           },
